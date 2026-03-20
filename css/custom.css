@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* Все правки в стиле делать только тут */
+
+    .layout a[href=""] {
+        pointer-events: none;
+        opacity: 0.5;
+    }
+    
+    .layout .promo-block__dates-content a {
+        text-decoration-color: transparent;
+        color: black;
+    }
